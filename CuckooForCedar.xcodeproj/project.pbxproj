@@ -21,6 +21,8 @@
 		AF8E69041900FA3500E827B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8E68CB1900F6C600E827B1 /* Foundation.framework */; };
 		AF8E690A1900FA3500E827B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF8E69081900FA3500E827B1 /* InfoPlist.strings */; };
 		AF8E69151900FCC400E827B1 /* HouseSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF8E69141900FCC400E827B1 /* HouseSpec.mm */; };
+		AF8E691E1900FF6800E827B1 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8E691D1900FF6800E827B1 /* House.m */; };
+		AF8E691F1900FF6800E827B1 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8E691D1900FF6800E827B1 /* House.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		AF8E69091900FA3500E827B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF8E69101900FA3500E827B1 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
 		AF8E69141900FCC400E827B1 /* HouseSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HouseSpec.mm; sourceTree = "<group>"; };
+		AF8E691C1900FF6800E827B1 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		AF8E691D1900FF6800E827B1 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,8 @@
 		AF8E69171900FD5300E827B1 /* BDD Easy Stuff - Part 2 */ = {
 			isa = PBXGroup;
 			children = (
+				AF8E691C1900FF6800E827B1 /* House.h */,
+				AF8E691D1900FF6800E827B1 /* House.m */,
 			);
 			name = "BDD Easy Stuff - Part 2";
 			sourceTree = "<group>";
@@ -305,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8E691E1900FF6800E827B1 /* House.m in Sources */,
 				AF8E68DC1900F6C600E827B1 /* AppDelegate.m in Sources */,
 				AF8E68D81900F6C600E827B1 /* main.m in Sources */,
 			);
@@ -314,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8E691F1900FF6800E827B1 /* House.m in Sources */,
 				AF8E69151900FCC400E827B1 /* HouseSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
