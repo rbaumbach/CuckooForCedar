@@ -12,7 +12,7 @@ describe(@"House", ^{
     __block Oven *oven;
     
     beforeEach(^{
-        oven = [[Oven alloc] init];
+        oven = nice_fake_for([Oven class]);
         house = [[House alloc] initWithOven:oven];
     });
     
@@ -22,6 +22,16 @@ describe(@"House", ^{
     
     it(@"has an oven", ^{
         house.oven should_not be_nil;
+    });
+    
+    describe(@"Remote appliance power management", ^{
+        beforeEach(^{
+            [house powerUpAppliances];
+        });
+        
+        it(@"turns on the oven", ^{
+            house.oven should have_received(@selector(powerUp));
+        });
     });
 });
 
