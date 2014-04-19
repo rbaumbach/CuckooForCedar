@@ -3,4 +3,7 @@
 
 @implementation Oven
 
+- (void)powerUp
+{ }
+
 @end
