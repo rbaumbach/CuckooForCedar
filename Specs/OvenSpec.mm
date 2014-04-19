@@ -17,3 +17,5 @@ describe(@"Oven", ^{
         oven should_not be_nil;
     });
 });
+
+SPEC_END

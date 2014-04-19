@@ -1,0 +1,4 @@
+
+@interface Oven : NSObject
+
+@end
