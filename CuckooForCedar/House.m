@@ -18,4 +18,9 @@
     return self;
 }
 
+- (void)powerUpAppliances
+{
+    [self.oven powerUp];
+}
+
 @end
