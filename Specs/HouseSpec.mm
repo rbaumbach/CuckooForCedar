@@ -19,6 +19,10 @@ describe(@"House", ^{
     it(@"exists", ^{
         house should_not be_nil;
     });
+    
+    it(@"has an oven", ^{
+        house.oven should_not be_nil;
+    });
 });
 
 SPEC_END
