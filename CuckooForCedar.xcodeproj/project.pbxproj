@@ -23,6 +23,7 @@
 		AF8E69151900FCC400E827B1 /* HouseSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF8E69141900FCC400E827B1 /* HouseSpec.mm */; };
 		AF8E691E1900FF6800E827B1 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8E691D1900FF6800E827B1 /* House.m */; };
 		AF8E691F1900FF6800E827B1 /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = AF8E691D1900FF6800E827B1 /* House.m */; };
+		AF8E6925190230E600E827B1 /* OvenSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF8E6924190230E600E827B1 /* OvenSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		AF8E69141900FCC400E827B1 /* HouseSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HouseSpec.mm; sourceTree = "<group>"; };
 		AF8E691C1900FF6800E827B1 /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		AF8E691D1900FF6800E827B1 /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		AF8E6924190230E600E827B1 /* OvenSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OvenSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				AF8E69141900FCC400E827B1 /* HouseSpec.mm */,
+				AF8E6924190230E600E827B1 /* OvenSpec.mm */,
 				AF8E69061900FA3500E827B1 /* Supporting Files */,
 			);
 			path = Specs;
@@ -322,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8E691F1900FF6800E827B1 /* House.m in Sources */,
+				AF8E6925190230E600E827B1 /* OvenSpec.mm in Sources */,
 				AF8E69151900FCC400E827B1 /* HouseSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
