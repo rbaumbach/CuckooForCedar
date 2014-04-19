@@ -16,6 +16,10 @@ describe(@"Oven", ^{
     it(@"exists", ^{
         oven should_not be_nil;
     });
+    
+    it(@"has powerUp method", ^{
+        [oven respondsToSelector:@selector(powerUp)] should be_truthy;
+    });
 });
 
 SPEC_END
