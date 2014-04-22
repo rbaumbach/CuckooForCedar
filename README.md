@@ -16,4 +16,4 @@ Cocoapods is used to install the Cedar testing framework.  Once this has been se
 
 ### BDD Using CEDAR Part 2 - Easy Stuff
 
-This project contains the code and the tests demonstrated at [Cuckoo for Cocoa Dev](http://www.cuckooforcocoadev.com)
+This project contains the code and the tests demonstrated at [Cuckoo for Cocoa Dev](http://www.cuckooforcocoadev.com/blog/2014/04/17/behavioral-driven-development-bdd-using-cedar-part-2-easy-stuff/)
