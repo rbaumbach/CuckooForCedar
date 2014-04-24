@@ -14,6 +14,12 @@ $ bundle exec pod install
 
 Cocoapods is used to install the Cedar testing framework.  Once this has been setup, use the workspace to run the specs (CuckooForCedar.xcworkspace).
 
+## Cuckoo For Cocoa Dev
+
+### BDD Using Cedar Part 1 - Easy Stuff
+
+This portion of the project contains the code and tests demonstrated at [BDD - Part 1](http://www.cuckooforcocoadev.com/blog/2013/12/10/behavioral-driven-development-bdd-using-cedar-part-1-easy-stuff/)
+
 ### BDD Using CEDAR Part 2 - Easy Stuff
 
-This project contains the code and the tests demonstrated at [Cuckoo for Cocoa Dev](http://www.cuckooforcocoadev.com/blog/2014/04/17/behavioral-driven-development-bdd-using-cedar-part-2-easy-stuff/)
+This portion of the project contains the code and the tests demonstrated at [BDD - Part 2](http://www.cuckooforcocoadev.com/blog/2014/04/17/behavioral-driven-development-bdd-using-cedar-part-2-easy-stuff/)
