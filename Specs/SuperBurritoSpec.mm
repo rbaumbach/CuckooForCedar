@@ -10,7 +10,7 @@ describe(@"SuperBurrito", ^{
     __block SuperBurrito *superBurrito;
     
     beforeEach(^{
-        superBurrito = [[[SuperBurrito alloc] init] autorelease];
+        superBurrito = [[SuperBurrito alloc] init];
     });
     
     it(@"creates a super burrito", ^{

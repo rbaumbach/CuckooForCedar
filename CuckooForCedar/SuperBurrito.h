@@ -1,0 +1,4 @@
+
+@interface SuperBurrito : NSObject
+
+@end

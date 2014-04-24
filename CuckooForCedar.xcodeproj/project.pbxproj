@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		07DF0E973B0E44B9B895B41C /* libPods-Specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC7578F0E2442D2BBA73C15 /* libPods-Specs.a */; };
 		AF02D1F219089F27004B09A7 /* SuperBurritoSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF02D1F119089F27004B09A7 /* SuperBurritoSpec.mm */; };
+		AF02D1F619089FDF004B09A7 /* SuperBurrito.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02D1F519089FDF004B09A7 /* SuperBurrito.m */; };
+		AF02D1F719089FDF004B09A7 /* SuperBurrito.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02D1F519089FDF004B09A7 /* SuperBurrito.m */; };
 		AF8E68CC1900F6C600E827B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8E68CB1900F6C600E827B1 /* Foundation.framework */; };
 		AF8E68CE1900F6C600E827B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8E68CD1900F6C600E827B1 /* CoreGraphics.framework */; };
 		AF8E68D01900F6C600E827B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8E68CF1900F6C600E827B1 /* UIKit.framework */; };
@@ -33,6 +35,8 @@
 		0DF68D16DDC0449B9BDA4EDB /* Pods-Specs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Specs.xcconfig"; path = "Pods/Pods-Specs.xcconfig"; sourceTree = "<group>"; };
 		7FC7578F0E2442D2BBA73C15 /* libPods-Specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF02D1F119089F27004B09A7 /* SuperBurritoSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperBurritoSpec.mm; sourceTree = "<group>"; };
+		AF02D1F419089FDF004B09A7 /* SuperBurrito.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBurrito.h; sourceTree = "<group>"; };
+		AF02D1F519089FDF004B09A7 /* SuperBurrito.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBurrito.m; sourceTree = "<group>"; };
 		AF8E68C81900F6C600E827B1 /* CuckooForCedar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuckooForCedar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8E68CB1900F6C600E827B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF8E68CD1900F6C600E827B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +105,15 @@
 			name = "BDD Easy Stuff - Part 1";
 			sourceTree = "<group>";
 		};
+		AF02D1F319089FC8004B09A7 /* BDD Easy Stuff - Part 1 */ = {
+			isa = PBXGroup;
+			children = (
+				AF02D1F419089FDF004B09A7 /* SuperBurrito.h */,
+				AF02D1F519089FDF004B09A7 /* SuperBurrito.m */,
+			);
+			name = "BDD Easy Stuff - Part 1";
+			sourceTree = "<group>";
+		};
 		AF8E68BF1900F6C600E827B1 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +150,7 @@
 		AF8E68D11900F6C600E827B1 /* CuckooForCedar */ = {
 			isa = PBXGroup;
 			children = (
+				AF02D1F319089FC8004B09A7 /* BDD Easy Stuff - Part 1 */,
 				AF8E69171900FD5300E827B1 /* BDD Easy Stuff - Part 2 */,
 				AF8E69161900FD4800E827B1 /* App */,
 				AF8E68D21900F6C600E827B1 /* Supporting Files */,
@@ -340,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF8E691E1900FF6800E827B1 /* House.m in Sources */,
+				AF02D1F619089FDF004B09A7 /* SuperBurrito.m in Sources */,
 				AF8E6928190231BC00E827B1 /* Oven.m in Sources */,
 				AF8E68DC1900F6C600E827B1 /* AppDelegate.m in Sources */,
 				AF8E68D81900F6C600E827B1 /* main.m in Sources */,
@@ -353,6 +368,7 @@
 				AF8E691F1900FF6800E827B1 /* House.m in Sources */,
 				AF8E6929190231BC00E827B1 /* Oven.m in Sources */,
 				AF8E6925190230E600E827B1 /* OvenSpec.mm in Sources */,
+				AF02D1F719089FDF004B09A7 /* SuperBurrito.m in Sources */,
 				AF02D1F219089F27004B09A7 /* SuperBurritoSpec.mm in Sources */,
 				AF8E69151900FCC400E827B1 /* HouseSpec.mm in Sources */,
 			);
