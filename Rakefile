@@ -1,5 +1,7 @@
 include FileUtils::Verbose
 
+task :default => :specs
+
 desc "Clean target"
 task :clean, :target do |task, args|
   clean args.target
