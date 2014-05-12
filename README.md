@@ -5,14 +5,19 @@ Cuckoo For Cocoa Dev using Cedar.  This will be used for Cuckoo for Cocoa Dev bl
 
 ## Setup
 
-This project uses [Ruby](https://github.com/sstephenson/rbenv), [Ruby Gems](http://rubygems.org), [Bundler](http://bundler.io), and [Cocoapods](http://cocoapods.org).  Get these installed on your machine and then do the following:
+This project uses [Ruby](https://github.com/sstephenson/rbenv), [Ruby Gems](http://rubygems.org), [Bundler](http://bundler.io), and [Cocoapods](http://cocoapods.org).  Get these installed on your machine and then run the setup.sh script to get [Cocoapods](http://cocoapods.org) and [xcpretty](https://github.com/supermarin/xcpretty) and [Rake](http://rake.rubyforge.org):
 
 ```bash
-$ bundle
-$ bundle exec pod install
+$ ./setup.sh
 ```
 
 Cocoapods is used to install the Cedar testing framework.  Once this has been setup, use the workspace to run the specs (CuckooForCedar.xcworkspace).
+
+The Specs can be run using the default rake task:
+
+```bash
+$ bundle exec rake
+```
 
 ## Cuckoo For Cocoa Dev
 
@@ -23,3 +28,7 @@ This portion of the project contains the code and tests demonstrated at [BDD - P
 ### BDD Using CEDAR Part 2 - Easy Stuff
 
 This portion of the project contains the code and the tests demonstrated at [BDD - Part 2](http://www.cuckooforcocoadev.com/blog/2014/04/17/behavioral-driven-development-bdd-using-cedar-part-2-easy-stuff/)
+
+### Using Rake for Command Line Builds
+
+The explanation and setup of the Rakefile and rake tasks were given at [Using Rake for Command Line Builds](http://www.cuckooforcocoadev.com/blog/2014/05/02/using-rake-for-command-line-builds/)
