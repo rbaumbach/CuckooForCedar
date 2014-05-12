@@ -1,5 +1,3 @@
-include FileUtils::Verbose
-
 task :default => :specs
 
 desc "Clean target"
