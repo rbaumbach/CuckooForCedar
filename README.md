@@ -31,8 +31,7 @@ This portion of the project contains the code and the tests demonstrated at [BDD
 
 ### How to Install Cedar Using CocoaPods
 
-The explaination and setup of Cedar using CocoaPods can be found at [How to Install Cedar Using CocoaPods
-.](http://www.cuckooforcocoadev.com/blog/2014/04/28/how-to-install-cedar-using-cocoapods/)
+The explaination and setup of Cedar using CocoaPods can be found at [How to Install Cedar Using CocoaPods.](http://www.cuckooforcocoadev.com/blog/2014/04/28/how-to-install-cedar-using-cocoapods/)
 
 ### Using Rake for Command Line Builds
 
